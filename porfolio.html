@@ -3,57 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PORTFOLIO</title>
 </head>
-<body>
-    <h1><i>PORTFOLIO</i></h1>
-    
+<body >
+     <h1><i>JEAN DE SALLES'S PORTFOLIO</i></h1>
+     <!--debut -->
+     <!--debut header-->
     <header>
-        <nav>
-            <ol>
-                <li><a href="home">home</a></li>
-                <li><a href="about">about</a></li>
-                <li><a href="work">work</a></li>
-                <li><a href="contacts">contacts</a></li>
-            </ol>
+        <nav class="nav-bar">
+            <ul>
+                <br><button><li><a href="#home">home</a></li></button>
+               <br><button> <li><a href="#about">about</a></li></button>
+             <br><button><li><a href="#work" id="work">work</a></li></button>
+                <br><button><li><a href="#contacts" id="contact">contacts</a></li></button>
+            </ul>
         </nav>
     </header>
+     <!--fin header-->
+     
+        <b><i>Bienvenu dans mon univers,univers de ma personnalitè ,mes projets et mes ambitions </i></b>
+        <h3>Bienvenu dans mon portofolio</h3>
 
-    <section id="home">
+    <!--debut section home-->
+    <section  id="home">
         <h2>home</h2>
-        <img width="250" src="avatar ..avif" alt="">
+
+         <img src="image moi.jpg" alt="" width="250" >
         <p>JEAN DE SALLES EVELYN SEBO</p>
         
     </section>
+    <!--fin section home-->
 
+    <!--debut section about-->
     <section id="about">
         <h2>about</h2>
-        <p>Actuellement étudiant en Web Master à GoMyCODE, je suis passionné par le développement web et la création d'expériences utilisateur innovantes. Je cherche à utiliser mes compétences pour résoudre des problèmes complexes et contribuer à des projets ambitieux.</p>
+        <h5>voulez vous savoir qui je suis !</h5>
+        <h6>let go !!!!</h6>
+        <h3>presentation et description</h3>
+        <p> Actuellement étudiant en développement web avec une spécialisation en webmastering. Passionné par la technologie et le design, je me forme pour devenir un web master compétent et créatif.Tout au long de mes études, j'ai acquis des compétences solides en HTML, CSS et JavaScript, ce qui me permet de créer des sites web fonctionnels et esthétiques. J'ai également travaillé avec des systèmes de gestion de contenu tels que WordPress, ce qui me permet de gérer efficacement des sites web.</p>
+        <p>Mes projets académiques m'ont permis de mettre en pratique mes connaissances et d'apprendre à résoudre des problèmes techniques courants. J'ai également développé des compétences en SEO de base, ce qui m'aide à optimiser les sites pour les moteurs de recherche et à améliorer leur visibilité en ligne.Je suis enthousiaste à l'idée de continuer à apprendre et à évoluer dans le domaine du développement web. <i>Mon objectif est de créer des sites web qui non seulement répondent aux besoins des utilisateurs, mais qui surpassent leurs attentes grâce à une conception intuitive et une performance optimale </i></p>
+        <p>En dehors de mes études, je suis passionné par la mode,la decoration ,etc ce qui m'apporte une perspective unique et créative dans mes projets web. Je suis toujours prêt à relever de nouveaux défis et à collaborer avec des professionnels pour créer des solutions web innovantes</p>
+
+        <table>
+            <tr>
+                <th><b>competences aquisees</b></th>
+                
+                
+            </tr>
+            <tr>
+                <td><b><i>Langages</i></b></td>
+                <td>HTML </td>
+            </tr>
+            <tr>
+                <td><b><i>Bases de données </i></b></td>
+                <td>MySQL</td>
+
+            </tr>
+            <tr>
+                <td><b><i>Outils de versionnement</i></b></td>
+                <td> Git, GitHub</td>
+            </tr>
+        </table>
+        
+
+        
 
     </section>
+    <!--fin section about-->
 
-    <section>
+
+    <!--debut section work-->
+    <section id="work">
         <h2>work</h2>
-        <p><h4>Compétences principales :</h4>
-
-            Langages : HTML
         
-            <h4> Bases de données :</h4>
-                    <p> MySQL</p>
-            <h4>Outils de versionnement</h4>
-                <p> Git, GitHub</p>
 
             <h4>projet academique</h4>
-            <i>Site Web pour une ONG locale
-            
-                Création d'un site web responsive pour une ONG locale, avec intégration de formulaires de contact et de dons en ligne</i>
-            
-            </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/salY_Sm6mv4?si=M9C7U3mLuc-szM_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <i>Site Web pour une ONG locale Création d'un site web responsive pour une ONG locale, avec intégration de formulaires de contact et de dons en ligne</i>
+            <h4>html en apperçu en pratique</h4>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/salY_Sm6mv4?si=M9C7U3mLuc-szM_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </section>
+    <!--fin section work-->
 
-    <section>
+    <!--debut section contacts-->
+    <section id="contacts">
         <h2>contacts( formulaire)</h2>
         <form action="">
             <label for="nom">Nom</label>
@@ -65,16 +98,27 @@
             <label for="email">email</label>
             <input type="text" id="email" name="email">
             <label for="">Raison</label>
-            <textarea name="" id=""></textarea>
+            <textarea name="message" id="message"></textarea>
             <input type="submit" value="envoyer">
         </form>
     </section>
+    <!--fin section contacts-->
 
-<br><footer>Toutes les informations fournies dans ce portfolio sont certifiées sincères et vérifiables</footer>
+    <!--debut footer-->
+    <footer>
+       <p> contactez moi pour des projets et des collaborations !!!
+        <a href="https://www.linkedin.com/in/sebo-cedric-evelyn-jean-de-salles-b5aa87159"><img width="85" src="logo-linkedin-4096.png" alt="logo fb"></a>
+        <a href="jeandesallesebo@gmail.com"><img width="30" src="Email.png" alt="logo mail"></a>
+         <a href="numero"><img width="50" src="contacts.png" alt="">0749609851</a>
+    </footer></p>
+    <!--fin footer-->
+     <!--fin-->
+
+
 
 
 
 
 
 </body>
-</html>
+</html> 
