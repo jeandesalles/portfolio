@@ -3,39 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>PORTFOLIO</title>
 </head>
 <body >
      <h1><i>JEAN DE SALLES'S PORTFOLIO</i></h1>
      <!--debut -->
      <!--debut header-->
+
     <header>
         <nav class="nav-bar">
             <ul>
-                <br><button><li><a href="#home">home</a></li></button>
-               <br><button> <li><a href="#about">about</a></li></button>
-             <br><button><li><a href="#work" id="work">work</a></li></button>
-                <br><button><li><a href="#contacts" id="contact">contacts</a></li></button>
+                <li><a href="#home">home</a></li>
+               <li><a href="#about">about</a></li>
+             <li><a href="#work" id="work">work</a></li>
+                <li><a href="#contacts" id="contact">contacts</a></li>
             </ul>
         </nav>
     </header>
      <!--fin header-->
      
-        <b><i>Bienvenu dans mon univers,univers de ma personnalitè ,mes projets et mes ambitions </i></b>
-        <h3>Bienvenu dans mon portofolio</h3>
+       
+        <strong id="Bienvenu">Bienvenu dans mon univers,univers de ma personnalitè ,mes projets et mes ambitions,Bienvenu dans mon portofolio </strong>
+      
+       
 
     <!--debut section home-->
-    <section  id="home">
+    <section  class="home">
         <h2>home</h2>
-
-         <img src="image moi.jpg" alt="" width="250" >
-        <p>JEAN DE SALLES EVELYN SEBO</p>
+            <div class="image">
+                <img src="image moi.jpg" alt="" width="100%" height="" >
+                <p>JEAN DE SALLES EVELYN SEBO</p>
+            </div>
+    
+            <div class="home2">
+               <div> Developpeur web junior</div>
+               <div> monteeur video amateur</div>
+               <div> digital marketer</div>
+            </div>
         
     </section>
     <!--fin section home-->
 
     <!--debut section about-->
-    <section id="about">
+    <section class="about">
         <h2>about</h2>
         <h5>voulez vous savoir qui je suis !</h5>
         <h6>let go !!!!</h6>
@@ -73,7 +84,7 @@
 
 
     <!--debut section work-->
-    <section id="work">
+    <section class="work">
         <h2>work</h2>
         
 
@@ -86,7 +97,8 @@
     <!--fin section work-->
 
     <!--debut section contacts-->
-    <section id="contacts">
+
+    <section class="contacts">
         <h2>contacts( formulaire)</h2>
         <form action="">
             <label for="nom">Nom</label>
