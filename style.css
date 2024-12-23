@@ -9,32 +9,26 @@ border: 2px #553d67 solid;
  color: white;
  background-color: #000B58;
 }
-li{
-    color: white;
-}
 
-.nav-bar{
-   /* background-color: aqua;
-    border-bottom: 3px black solid;*/
-    margin: auto;
-    /*width: fit-content*/;
-    display: block;
-   text-align: center;
-    ;
-}
+
 header{
-    border-bottom: 5px white solid;
-    /*margin: 0px;
-    padding: 100%*/
-    display: flex;
-    max-width:100%;
+    display: grid;
+     grid-template-columns: 1fr auto;
+      align-items: center; 
+      padding: 10px 20px; 
+      background-color: ;
+       color: white;
+       border-bottom: 3px white solid;
 
 }
+header nav ul li{
+    display: inline;
+    margin: 5px;
+}
 
-h1{ color: white;
-   /* position: sticky;
-    top:0*/;
-    text-align: center;
+header nav ul li a{
+    color: white;
+    text-decoration: none;
 }
 
 h3,h4{
@@ -60,46 +54,10 @@ h2:hover{
     background-color: #000B58;
 }
 
-/*header div{
-    display: inline;
-    margin-right: 30px;
-}*/
-header .nav-bar ul li{
-    /*border: 1px black solid*/;
-    width: fit-content;
-    display: inline;
-    margin-left: 5px;
-    text-decoration: none;
-    text-align: center;;}
-
-header div{
-    color: white;
-    font-weight: bold;
-   /* border: 2px #000B58 solid;
-    background-color:#000B58 ;
-    border-radius: 8px*/;
-    padding: 10px 3%;
-    display: flex;
-    width: fit-content;
-    text-align: center;
-    /*display: inline;
-    ;
-    text-decoration: none;
-    color: whitel;
-    font-weight: bold;
-    background-color: blue;
-    border: 1px #000B58 solid;
-    padding: 20px;
-    border-radius: 100%*/;
-}
-
-/*nav a:hover{
-background-color:#659287 ;
-transition: 0.3s;
-}*/
 .home{/* background-color:#2E5077*/; 
     text-align: center;
 }
+
 .about, h3 ,h5 ,h6{
    /* border: 1px yellow solid*/;
 text-align: center;
@@ -107,16 +65,13 @@ margin: 10px;
 padding: 10px;
 
 }
-/*header,section{
-    margin-top: 30px;
-}*/
 
 
 .home .home2 div{
     font-weight: bold;
 border: 3px #000B58 solid ;
 border-radius: 8px;
-padding: 10px 3%;
+padding: 10px 2.5%;
 margin: 10px 10px 0px 0px;
 display: inline;
 width: fit-content;
@@ -129,7 +84,7 @@ opacity: 0;
     opacity: 1;
     transition: 2s;
     cursor: pointer;
-    color: yellow;
+    color: #1f0530;
 }
 .home .image {
     /*border: 1px red solid*/;
@@ -149,10 +104,7 @@ k2
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: #000B58;
-  /*width: fit-content;
-  position: absolute;
-  top:30%;
-  right: 20%;*/
+
 }
 #Bienvenu{
     color:white;
@@ -168,21 +120,21 @@ table{
    /* border: 1px black solid*/;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #553d67;
+    background-color: #1f0530;
     padding: 15pxk;
     width: fit-content;
     color: white;
 }
 
 #competences{
-    color: yellow;
+    color: rgb(153, 73, 73);
     text-decoration:underline;
     padding: 10px;
     margin: 10px;
-   /* border: 1px black solid*/;
+   /* border: 1px black solid*/
 }
 .work{
-   /* border: 1px black solid*/;
+   /* border: 1px black solid*/
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -203,28 +155,31 @@ h4{
 
 .contacts{
     width: fit-content;
-   /* border: 1px yellow solid*/;
+   /* border: 1px yellow solid*/
     padding: 1%;
     text-align: center;
     /*margin-bottom: 20px*/;
 }
 footer{
-   /* border: 1px red solid*/;
+   /* border: 1px red solid*/
     display: block;
     margin: 10px auto;
     width: fit-content;
     text-align: center;
+    background-color:  #242582;
+    margin: 1% auto;
+    display: block;
 }
 form{
     width: fit-content;
-    /*border: 1px red solid*/;
+    /*border: 1px red solid*/
     margin: 2% 0px 2% 0px;
     padding: 10px;
 }
 .droits{
-   /* border: 1px black solid*/;
-    background-color:#000B58;
-    color:white;
+   /* border: 1px black solid*/
+    background-color:white;
+    color:#000B58;
     font-weight: bold;
     display: block;
     text-align: center;
@@ -251,10 +206,4 @@ margin: 1%
 .about{
      background-color: #242582 ; 
      margin: 1%;
-     }
-
-    footer{
-        background-color:  #242582;
-        margin: 1% auto;
-        display: block;
      }
